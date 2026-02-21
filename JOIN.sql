@@ -1,10 +1,10 @@
--- in sea linos db
+-- in sea_linos.db
 
 SELECT * FROM "sea_lions"
 JOIN "migrations" ON "migrations"."id" = "sea_lions"."id";
 
 -- left join
-SELECT * FROM "sea_linos"
+SELECT * FROM "sea_lions"
 LEFT JOIN "migrations" ON "migrations"."id" = "sea_lions"."id";
 
 -- right join
@@ -17,4 +17,4 @@ FULL JOIN "migrations" ON "migrations"."id" = "sea_lions"."id";
 
 -- natural join
 SELECT * FROM "sea_lions"
-NATURAL JOIN "migratins";
+NATURAL JOIN "migrations";
