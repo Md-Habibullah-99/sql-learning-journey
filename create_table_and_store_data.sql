@@ -1,4 +1,7 @@
+
+-- delete the tables if they already exist
 -- DROP TABLE IF EXISTS votes;
+
 --  CREATE TABLE authors (name STRING);
 --  CREATE TABLE title (book_title STRING);
 --  CREATE TABLE rating (book_rating DOUBLE);
